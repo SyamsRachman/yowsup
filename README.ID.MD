@@ -22,15 +22,9 @@ untuk nilai md5 & version ambil disini **https://coderus.openrepos.net/whitesoft
 ```json
 {
   "a": "bDsdWi0yvVhqavctrvA4Sw==",
-  "b": "PdA2DJyKoUrwLw1Bg6EIhzh502dF9noR9uFCllGk",
-  "c": "1478194306452L",
+  "..": "...",
   "d": "2.17.329",
-  "e": "2.16.12",
-  "f": "2.11.634",
-  "g": "PdA2DJyKoUrwLw1Bg6EIhzh502dF9noR9uFCllGk",
-  "h": "1478194472015L",
-  "i": "PdA2DJyKoUrwLw1Bg6EIhzh502dF9noR9uFCllGk",
-  "j": "1478194472015L"
+  "..": "..."
 }
 ```
 4. Build dan install
