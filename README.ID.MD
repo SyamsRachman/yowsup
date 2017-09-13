@@ -2,15 +2,41 @@
 
 ## Instalasi
 
-1. Clone Repo `$ git clone https://github.com/tgalal/yowsup.git && cd yowsup`
-2. Edit **yowsup/yowsup/env/env.py**
-`DEFAULT = "s40" #before`
-`DEFAULT = "Android" #after`
-3. Edit **yowsup/yowsup/env/env_android.py**
-`_MD5_CLASSES = "____"`
-`_VERSION = "____"`
-untuk nilai md5 & version ambil disini `https://coderus.openrepos.net/whitesoft/whatsapp_scratch`  md5 = am, version = d. kemudian simpan
-4. `$ python setup.py build && python setup.py install`
+1. Clone Repo 
+```sh
+  $ git clone https://github.com/tgalal/yowsup.git && cd yowsup
+```
+
+2. Edit yowsup/yowsup/env/env.py
+```python
+DEFAULT = "s40" #before
+DEFAULT = "Android" #after
+```
+3. Edit yowsup/yowsup/env/env_android.py
+```python
+_MD5_CLASSES = "____"
+_VERSION = "____"
+```
+untuk nilai md5 & version ambil disini **https://coderus.openrepos.net/whitesoft/whatsapp_scratch**
+
+```json
+{
+  "a": "bDsdWi0yvVhqavctrvA4Sw==",
+  "b": "PdA2DJyKoUrwLw1Bg6EIhzh502dF9noR9uFCllGk",
+  "c": "1478194306452L",
+  "d": "2.17.329",
+  "e": "2.16.12",
+  "f": "2.11.634",
+  "g": "PdA2DJyKoUrwLw1Bg6EIhzh502dF9noR9uFCllGk",
+  "h": "1478194472015L",
+  "i": "PdA2DJyKoUrwLw1Bg6EIhzh502dF9noR9uFCllGk",
+  "j": "1478194472015L"
+}
+```
+4. Build dan install
+```sh
+$ python setup.py build && python setup.py install
+```
 
 **Note:** untuk yang menggunakan Virtualenv Python 
 `$ pip install yowsup2` kemudian next di step ke-2 diatas (tapi cari dulu dimana letak .env)
